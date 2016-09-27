@@ -1,0 +1,52 @@
+.perphoto{
+  margin: 60px auto;
+  .heart {
+    background-color: #f15151;
+    display: inline-block;
+    height: 15px;
+    margin: 0 5px;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    width: 15px;
+  }
+
+  .heart:before,
+  .heart:after {
+    content: "";
+    background-color: #f15151;
+    border-radius: 50%;
+    height: 15px;
+    position: absolute;
+    width: 15px;
+  }
+
+  .heart:before {
+    top: -7.5px;
+    left: 0;
+  }
+
+  .heart:after {
+    left: 7.5px;
+    top: 0;
+  }
+  .unsplash-user {
+    float: left;
+  }
+  .unsplash-likes{
+    float: right;
+  }
+  .unsplash-image{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .unsplash-user {
+    img{
+      margin-top: -8px;
+      border-radius: 50%;
+    }
+    span{
+      vertical-align: top;
+    }
+  }
+}

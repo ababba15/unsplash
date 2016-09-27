@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Webpack Boilerplate</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="{%=o.htmlWebpackPlugin.files.chunks.app.css[0]%}">
+</head>
+<body>
+  <div id="app" class="holder">
+    <form id="search-form">
+      Search unsplash:
+        <svg id="search-button" version="1.1" viewBox="0 0 32 32" width="32" height="32" aria-labelledby="icon-title-885 icon-desc-886" aria-hidden="false" data-reactid=".2bmov4g0m4g.3.0.0.0.1.0.2.0"><path d="M31.4 28.6l-6.2-6.2c1.8-2.3 2.8-5.2 2.8-8.4 0-7.7-6.3-14-14-14s-14 6.3-14 14 6.3 14 14 14c3.1 0 6-1.1 8.4-2.8l6.2 6.2c.4.4.9.6 1.4.6s1-.2 1.4-.6c.8-.8.8-2 0-2.8zm-17.4-4.6c-5.5 0-10-4.5-10-10s4.5-10 10-10 10 4.5 10 10-4.5 10-10 10z" data-reactid=".2bmov4g0m4g.3.0.0.0.1.0.2.0.1"></path></svg>
+      <input type="text" placeholder="Search photos" id="search-input">
+    </form>
+    <div id="search-results"></div>
+  </div>
+  <script src="{%=o.htmlWebpackPlugin.files.chunks.vendor.entry%}"></script>
+  <script src="{%=o.htmlWebpackPlugin.files.chunks.app.entry%}"></script>
+</body>
+</html>
