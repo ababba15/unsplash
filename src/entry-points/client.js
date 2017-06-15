@@ -5,7 +5,7 @@ import $ from 'jquery';
 
 const unsplash = new Unsplash({
   applicationId: "a6e1edc78c6ee6ce2b940bcd4a23dbdd3f457c3ae847d0376f6c67c621ad3545",
-  secret: "b4f4f9bed1e2afee4ed364cdfaf51a8310bf8031b96d1e1f926f31abdabe4a12",
+  secret: "b4f4f9bed1e2afee4ed364cdfaf51a8310bf8031b96d1e1f926f31abdabe4a12", // LOL not so secret as defined
   callbackUrl: "http://twitter.com/shafeeqonline"
 });
 
